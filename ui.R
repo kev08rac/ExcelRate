@@ -59,7 +59,7 @@ ui <- fluidPage(
                                              column(1, offset = 4, dropdown(
                                                label = "Remove Column", width = 400, 
                                                fixedRow(
-                                                 column(10, selectInput("delColIndex", "Column Name", choices = NULL, width = 400)),
+                                                 fixedRow(column(10, selectInput("delColIndex", "Column Name", choices = NULL, width = 400))),
                                                  column(1, actionButton("delColGo", "Remove column"))
                                                )
                                              ))
