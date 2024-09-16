@@ -1,4 +1,4 @@
 # ExcelRate
 Rshiny app allowing for easy spreadsheet manipulation
 
-https://kev08rac.shinyapps.io/excelrate/
+Hosted on shinyapps.io - https://kev08rac.shinyapps.io/excelrate/
