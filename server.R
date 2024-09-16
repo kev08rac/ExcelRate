@@ -10,9 +10,9 @@ server <- function(input, output, session) {
   
   ### Load server reactives/observes ###
   source(file.path("server","downloadChecks.R"), local = TRUE)$value
-  source(file.path("server","uploadFiles.R"), local = TRUE)$value
   source(file.path("server","downloadFiles.R"), local = TRUE)$value
   source(file.path("server","selectInputs.R"), local = TRUE)$value
   source(file.path("server","resetButton.R"), local = TRUE)$value
   source(file.path("server","columnFunctions.R"), local = TRUE)$value
+  source(file.path("server","defaultTable.R"), local = TRUE)$value
 }

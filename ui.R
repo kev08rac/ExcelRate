@@ -44,7 +44,7 @@ ui <- fluidPage(
                           conditionalPanel(condition = "input.ui_Tabs == 1",
                                           fileInput("file", "Upload Excel file", multiple = TRUE, accept = ".xlsx"),
                                            
-                                           fixedRow(id = "tableOptions", HTML("<h5>Table Options</h5>")),
+                                          fixedRow(id = "tableOptions", HTML("<h5>Table Options</h5>")),
                                            
                                            # Adding/removing columns
                                            fixedRow(
